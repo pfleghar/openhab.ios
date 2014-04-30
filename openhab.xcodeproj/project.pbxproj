@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67519C171910DFFA00F208AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67519C161910DFFA00F208AD /* Images.xcassets */; };
 		6E05F5D0149E5EEC0061773D /* configurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E05F5CF149E5EEC0061773D /* configurationViewController.m */; };
 		6E05F5D3149E5EFA0061773D /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E05F5D2149E5EFA0061773D /* infoViewController.m */; };
 		6E0BE89115F79D8100D1773B /* openhabTableViewCellVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0BE89015F79D8100D1773B /* openhabTableViewCellVideo.m */; };
@@ -95,6 +96,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67519C161910DFFA00F208AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6E05F5CE149E5EEC0061773D /* configurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configurationViewController.h; sourceTree = "<group>"; };
 		6E05F5CF149E5EEC0061773D /* configurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = configurationViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6E05F5D1149E5EFA0061773D /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
@@ -458,6 +460,7 @@
 				6E5C1944149B6A5400679CEA /* Model */,
 				6E5C1943149B6A4B00679CEA /* Persistance */,
 				6E5C1942149B697300679CEA /* Translation */,
+				67519C161910DFFA00F208AD /* Images.xcassets */,
 			);
 			path = openhab;
 			sourceTree = "<group>";
@@ -671,6 +674,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E4F2A50149E5BD3004CE15D /* MainStoryboard_iPhone.storyboard in Resources */,
+				67519C171910DFFA00F208AD /* Images.xcassets in Resources */,
 				6E4F2A51149E5BD3004CE15D /* MainStoryboard_iPad.storyboard in Resources */,
 				6E5C1929149B695500679CEA /* InfoPlist.strings in Resources */,
 				6E5C194B149B6A7E00679CEA /* data.plist in Resources */,
@@ -828,7 +832,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -854,7 +858,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -867,10 +871,12 @@
 		6E5C193F149B695500679CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "openhab/openhab-Prefix.pch";
 				INFOPLIST_FILE = "openhab/openhab-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -879,10 +885,12 @@
 		6E5C1940149B695500679CEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "openhab/openhab-Prefix.pch";
 				INFOPLIST_FILE = "openhab/openhab-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
